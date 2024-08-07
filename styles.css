@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 60;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Centra el texto en todo el cuerpo */
+}
+
+header {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e44ad;
+}
+
+header img {
+    max-width: 750%;
+    height: auto;
+    color: #8e44ad;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido dentro de main */
+    color: ;
+}
+
+.description, .social-media {
+    margin: 10px 0;
+    padding: 20px; /* Añade un poco de relleno interno */
+    background-color: #8e44ad; /* Fondo morado */
+    color: rgb(247, 240, 245); /* Texto en blanco */
+    border-radius: 8px; /* Esquinas redondeadas */
+    width: 100%;
+    max-width: 800px; /* Opcional: Limita el ancho del contenedor */
+}
+
+.description h1, .social-media h2 {
+    font-size: 105%; /* Tamaño de fuente más grande para los encabezados */
+    margin-bottom: 10px; /* Espacio debajo del encabezado */
+}
+
+.description p {
+    text-align: justify; /* Justifica el texto dentro del párrafo */
+    font-size: 1.3em; /* Tamaño de fuente más grande para el párrafo */
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 20px; /* Espacio entre botones */
+}
+
+.social-media li {
+    margin: 50;
+}
+
+.social-media a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(223, 150, 233);
+    background-color: red; /* Fondo gris */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold; /* Texto en negritas */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-media a:hover {
+    background-color: #5a6268; /* Gris más oscuro para el hover */
+    color: #e7a5e9; /* Color blanco más claro */
+}
+
+.videos ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre botones */
+}
+
+.videos li {
+    margin: 0;
+}
+
+.videos a {
+    display: inline-block;
+    padding: 10px 20px;
+    color:#de81eb;
+    background-color: #8e44ad; /* Fondo morado para los botones de videos */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold; /* Texto en negritas */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.videos a:hover {
+    background-color: #732d91; /* Morado más oscuro para el hover */
+    color: #de81eb; /* Color blanco más claro */
+}
+
+footer {
+    background-color: #8e44ad;
+    color: rgb(223, 132, 231);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center; /* Centra el texto en el footer */
+}
